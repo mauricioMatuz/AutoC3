@@ -1,0 +1,3 @@
+P => write (L ) XD
+letra => A..Z | a...z
+L => 0...9 L | "letra" | epsilon

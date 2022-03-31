@@ -1,0 +1,5 @@
+L => F V T { }
+F => for
+V => a...z
+T = >to (C)
+C => 0...9 C | E

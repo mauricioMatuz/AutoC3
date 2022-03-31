@@ -1,0 +1,8 @@
+VARIABLE => nombre = tipoDato ;
+nombre => letra nombre | letra
+letra = a..z | A...Z
+Digito = 0...9
+tipoDato = String("valor")
+valor = letra R | digito RD
+R => letra R | Digito R | epsilon
+RD = > digito RD | epsilon

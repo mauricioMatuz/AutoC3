@@ -1,0 +1,5 @@
+variable => nombre = tipoDato;
+nombre => letra nombre | letra
+letra => A...Z | a...z
+tipoDato => int(L.L)
+L => 0...9 L | epsilon

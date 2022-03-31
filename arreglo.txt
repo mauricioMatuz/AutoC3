@@ -1,0 +1,4 @@
+VARIABLE => nombre = [ dato ];
+dato => "L" Z | 0...9 L
+L => A...Z | a...z
+Z => , "L" Z | epsilon
